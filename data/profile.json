@@ -9,27 +9,27 @@
       "hardSkills": [
         {
           "name": "Nodejs",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+          "logo": "https://raw.githubusercontent.com/carlos1818augusto/Portifolio--Carlos-Augusto./main/data/Imgs/nodejs.png"
         },
         {
           "name": "Java",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+          "logo": "https://raw.githubusercontent.com/carlos1818augusto/Portifolio--Carlos-Augusto./main/data/Imgs/java.png"
         },
         {
-          "name": "Angular",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+          "name": "JavaScript",
+          "logo": "https://raw.githubusercontent.com/carlos1818augusto/Portifolio--Carlos-Augusto./main/data/Imgs/js.png"
         },
         {
-          "name": "React",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+          "name": "Python",
+          "logo": "https://raw.githubusercontent.com/carlos1818augusto/Portifolio--Carlos-Augusto./main/data/Imgs/python.png"
         },
         {
-          "name": "Mongodb",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
+          "name": "GIT",
+          "logo": "https://raw.githubusercontent.com/carlos1818augusto/Portifolio--Carlos-Augusto./main/data/Imgs/git.png"
         },
         {
-          "name": "Postgresql",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+          "name": "Vscode",
+          "logo": "https://raw.githubusercontent.com/carlos1818augusto/Portifolio--Carlos-Augusto./main/data/Imgs/vscode.png"
         }
       ],
       "softSkills": [
@@ -60,19 +60,25 @@
     ],
     "professionalExperience": [
       {
-        "name": "Arquiteto de software / S3 BANK",
-        "period": "2022 - até o momento",
+        "name": "Analista de Software / Maxis Informática Ltda",
+        "period": "12/2022 - 07/2023",
         "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
       },
       {
-        "name": "Software Engineering Lead / DIO",
-        "period": "2021 - 2022",
+        "name": "Analista de Sistema Jr / Prime Results",
+        "period": "06/2022 - 12/2022",
         "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
       },
       {
-        "name": "CEO / Brain Machine",
-        "period": "2016 - 2021",
+        "name": "Técnico de TI (Sistemas) / 123 Milhas",
+        "period": "03/2022 - 06/2022",
         "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+      },
+      {
+        "name": "Estagiário de TI / Premium Saúde",
+        "period": "10/2020 - 03/2022",
+        "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+        
       }
     ]
   }
