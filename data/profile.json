@@ -56,6 +56,11 @@
         "name": "Trilha-JS-Developer--Pokedex",
         "url": "https://github.com/carlos1818augusto/Trilha-JS-Developer--Pokedex.git",
         "github": true
+      },
+      {
+        "name": "Game--Teste--Snake",
+        "url": "https://github.com/carlos1818augusto/Game--Teste--Snake.git",
+        "github": true
       }
     ],
     "professionalExperience": [
