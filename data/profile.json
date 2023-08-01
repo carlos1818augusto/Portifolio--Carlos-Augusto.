@@ -28,10 +28,15 @@
           "logo": "https://raw.githubusercontent.com/carlos1818augusto/Portifolio--Carlos-Augusto./main/data/Imgs/git.png"
         },
         {
-          "name": "Vscode",
-          "logo": "https://raw.githubusercontent.com/carlos1818augusto/Portifolio--Carlos-Augusto./main/data/Imgs/vscode.png"
+          "name": "Mysql",
+          "logo": "https://raw.githubusercontent.com/carlos1818augusto/Portifolio--Carlos-Augusto./main/data/Imgs/mysql.png"
+        }, 
+        {
+          "name": "CSS",
+          "logo": "https://raw.githubusercontent.com/carlos1818augusto/Portifolio--Carlos-Augusto./main/data/Imgs/css.png"
         }
       ],
+        
       "softSkills": [
         "Empatia",
         "Liderança",
@@ -61,8 +66,19 @@
         "name": "Game--Teste--Snake",
         "url": "https://github.com/carlos1818augusto/Game--Teste--Snake.git",
         "github": true
+      },
+      {
+        "name": "Projeto-de-Login",
+        "url": "https://github.com/carlos1818augusto/Projeto-de-Login.git",
+        "github": true
+      },
+      {
+        "name": "Projeto---de---Marketing---Digital",
+        "url": "https://github.com/carlos1818augusto/Projeto---de---Marketing---Digital.git",
+        "github": true
       }
     ],
+    
     "professionalExperience": [
       {
         "name": "Analista de Software / Maxis Informática Ltda",
@@ -82,7 +98,7 @@
       {
         "name": "Estagiário de TI / Premium Saúde",
         "period": "10/2020 - 03/2022",
-        "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+        "description": "Passei momentos incríveis de muito aprendizado onde fazer parte deste time fantástico."
         
       }
     ]
