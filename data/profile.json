@@ -8,6 +8,14 @@
     "skills": {
       "hardSkills": [
         {
+          "nome": "PowerBI"  
+          "logo": "https://raw.githubusercontent.com/carlos1818augusto/Portifolio--Carlos-Augusto./main/data/Imgs/Power%20BI.svg.png" 
+        },
+        {
+          "nome": "R"  
+          "logo": "https://raw.githubusercontent.com/carlos1818augusto/Portifolio--Carlos-Augusto./main/data/Imgs/R%20.png" 
+        },
+        {
           "name": "Nodejs",
           "logo": "https://raw.githubusercontent.com/carlos1818augusto/Portifolio--Carlos-Augusto./main/data/Imgs/nodejs.png"
         },
