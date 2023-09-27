@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: #000;
+    background-color: #0c0b13;
     color: #fff;
 }
 
@@ -25,7 +25,7 @@ a:hover {
 .main {
     margin: 1rem;
     padding: 1rem;
-    border: 1px solid #fff;
+    border: 1px solid #3878cc;
     border-radius: 1rem;
 }
 
