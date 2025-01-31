@@ -56,7 +56,7 @@
     },
     "languages": [
       "Inglês (Avançado)",
-      "Espanhol (intermediário)"
+      "Espanhol (Avançado)"
       
     ],
     "portfolio": [
@@ -66,8 +66,8 @@
         "github": true
       },
       {
-        "name": "Trilha-JS-Developer--Pokedex",
-        "url": "https://github.com/carlos1818augusto/Trilha-JS-Developer--Pokedex.git",
+        "name": "Portfólio-Power-BI",
+        "url": "https://github.com/carlos1818augusto/Portifolio-Power-BI.git",
         "github": true
       },
       {
@@ -76,13 +76,18 @@
         "github": true
       },
       {
-        "name": " Projeto de Analise da Biblia ",
+        "name": "Projeto de Analise da Biblia",
         "url": "https://github.com/carlos1818augusto/Analisando-a-Biblia.git",
         "github": true
       },
       {
-        "name": "Projeto---de---Marketing---Digital",
-        "url": "https://github.com/carlos1818augusto/Projeto---de---Marketing---Digital.git",
+        "name": "gestão-projeto-power-bi",
+        "url": "https://github.com/carlos1818augusto/gestao-projecto-power-bi.git",
+        "github": true
+      },
+      {
+        "name": "analise-producao-power-bi",
+        "url": "https://github.com/carlos1818augusto/analise-producao-power-bi.git",
         "github": true
       }
     ],
