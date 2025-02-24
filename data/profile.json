@@ -94,8 +94,13 @@
     
     "professionalExperience": [
      {
+        "name": "Full business Intelligence Analyst / Neooh",
+        "period": "02/2025",
+        "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+      },
+     {
         "name": "Data Analyst Pl / Alvorada Ambiental",
-        "period": "09/2023",
+        "period": "09/2023 - 02/2025",
         "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais."
       },
       {
@@ -104,7 +109,7 @@
         "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
       },
       {
-        "name": "Data Analyst Jr / Prime Results",
+        "name": "Data Analyst Jr / 123 Milhas",
         "period": "02/2022 - 12/2022",
         "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
       },
