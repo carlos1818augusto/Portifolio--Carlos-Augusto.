@@ -1,119 +1,579 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio Carlos Augusto R Teixeira</title>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Carlos Augusto estrutura dados, dashboards e automacoes para reduzir retrabalho e acelerar decisoes de negocio."
+    />
+    <title>Carlos Augusto | BI, Dados e Automacao</title>
+    <link rel="icon" type="image/png" href="assets/images/logo-carlos-augusto.png" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#inicio" aria-label="Ir para o inicio">
+        <span class="brand-mark" aria-hidden="true">
+          <img class="brand-logo" src="assets/images/logo-carlos-augusto.png" alt="" />
+        </span>
+        <span class="brand-text">
+          <strong>Carlos Augusto</strong>
+          <small>BI, Dados e Automacao</small>
+        </span>
+      </a>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
-    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" data-nav-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
-  
-    <link rel="stylesheet" href="assets/fonts/neue-machina-regular.otf">
-    <link rel="stylesheet" href="assets/css/global.css">
-    <link rel="stylesheet" href="assets/css/header.css">
-    <link rel="stylesheet" href="assets/css/acordeon.css">
-    <link rel="stylesheet" href="assets/css/languages.css">
-    <link rel="stylesheet" href="assets/css/portfolio.css">
-    <link rel="stylesheet" href="assets/css/experience.css">
-    <link rel="stylesheet" href="assets/css/skills.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
-</head>
+      <nav class="nav" data-nav>
+        <a href="#servicos">Servicos</a>
+        <a href="#cases">Cases</a>
+        <a href="#processo">Processo</a>
+        <a href="#perfil">Perfil de cliente</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <a class="header-cta" href="#contato">Agendar diagnostico</a>
+    </header>
 
-<body>
-    <main class="main">
-        <header class="header">
-            <img src="assets/img/my-photo.png" alt="Foto de Perfil" class="photo" id="profile.photo">
-
-            <h1 class="title">
-                Olá, <br>eu sou <span id="profile.name">Carregando...</span>
-            </h1>
-
-            <div class="information">
-                <p class="job" id="profile.job">Carregando...</p>
-                <p class="location" id="profile.location">Carregando...</p>
-                <p class="phone">
-                    <a href="tel:(16) 9 9999-9999" id="profile.phone">Carregando...</a>
-                </p>
-                <p class="email">
-                    <a href="mailto:ex@mail.com" id="profile.email">carregando@mail.com</a>
-                </p>
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero-media" aria-hidden="true">
+          <img src="assets/images/hero-analytics.png" alt="" />
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-shell">
+          <div class="hero-content">
+            <p class="eyebrow">Consultoria em BI, dados, automacao e analytics</p>
+            <h1>IA, dashboards e automacoes para sua empresa decidir melhor e operar com mais eficiencia.</h1>
+            <p class="hero-copy">
+              Estruturo indicadores, integracoes e solucoes com IA aplicada para transformar dados em rotina de decisao, ganho operacional e menos trabalho manual.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#contato">Solicitar proposta</a>
+              <a class="button secondary" href="#cases">Ver cases</a>
             </div>
-        </header>
+            <div class="hero-tags" aria-label="Especialidades principais">
+              <span>Power BI executivo</span>
+              <span>IA aplicada</span>
+              <span>Python e SQL</span>
+              <span>ETL e APIs</span>
+            </div>
+            <div class="hero-points" aria-label="Diferenciais de entrega">
+              <article>
+                <strong>Diagnostico objetivo</strong>
+                <span>Leitura clara do problema, das fontes e do impacto esperado.</span>
+              </article>
+              <article>
+                <strong>Execucao ponta a ponta</strong>
+                <span>Da integracao ao dashboard, com automacao e validacao tecnica.</span>
+              </article>
+              <article>
+                <strong>Entrega com handoff</strong>
+                <span>Documentacao, publicacao e orientacao para o time usar de verdade.</span>
+              </article>
+            </div>
+          </div>
 
-        <section class="acordeon">
-            <button class="trigger" type="button">
-                <h2>Skills</h2>
-            </button>
+          <aside class="hero-aside" aria-label="Resumo da oferta">
+            <p class="hero-aside-kicker">Resumo da entrega</p>
+            <div class="hero-status">
+              <span aria-hidden="true"></span>
+              <p>Disponivel para projetos de BI, automacao e estruturacao de indicadores.</p>
+            </div>
+            <dl class="hero-stats" aria-label="Indicadores de experiencia">
+              <div>
+                <dt>6+</dt>
+                <dd>anos trabalhando com dados, BI e automacao</dd>
+              </div>
+              <div>
+                <dt>40%</dt>
+                <dd>menos atualizacao manual em rotinas analiticas recorrentes</dd>
+              </div>
+              <div>
+                <dt>30%</dt>
+                <dd>ganho de tempo em leitura gerencial e consolidacao de indicadores</dd>
+              </div>
+            </dl>
+            <div class="hero-proof">
+              <strong>Entregas sob medida</strong>
+              <p>Dashboards executivos, pipelines, integracoes, automacoes e modelos analiticos para financeiro, operacoes, comercial e marketing.</p>
+            </div>
+          </aside>
+        </div>
+      </section>
 
-            <div class="content">
-                <div class="skills">
-                    <section class="tools">
-                        <h3>Ferramentas:</h3>
-                        <ul id="profile.skills.hardSkills">
-                        </ul>
-                    </section>
+      <section class="proof-band">
+        <div class="section-inner proof-grid">
+          <article>
+            <span>Foco</span>
+            <strong>Problema, dado e decisao</strong>
+            <p>Projetos pensados para uso de negocio, nao para demonstracao tecnica isolada.</p>
+          </article>
+          <article>
+            <span>Entrega</span>
+            <strong>Escopo claro e aplicacao real</strong>
+            <p>Base integrada, KPI definido, dashboard publicado, automacao executando e handoff documentado.</p>
+          </article>
+          <article>
+            <span>Stack</span>
+            <strong>Power BI, Python, SQL e cloud</strong>
+            <p>Ferramentas escolhidas pelo contexto operacional e pelo nivel de maturidade do time.</p>
+          </article>
+          <article>
+            <span>Atuacao</span>
+            <strong>Financeiro, operacoes, marketing e executivos</strong>
+            <p>Leitura de performance, controle, previsao e padronizacao de indicadores.</p>
+          </article>
+        </div>
+      </section>
 
-                    <section class="personal">
-                        <h3>Pessoal:</h3>
-                        <ul id="profile.skills.softSkills">
-                            <li>Carregando...</li>
-                            <li>Carregando...</li>
-                            <li>Carregando...</li>
-                        </ul>
-                    </section>
+      <section class="section visual-offer" aria-label="Imagem de IA, dashboards e automacoes">
+        <div class="section-inner visual-offer-grid">
+          <div class="visual-offer-media">
+            <img src="assets/images/ai-automation-showcase.png" alt="Ambiente digital com dashboards, automacoes, fluxos de dados e IA aplicada a decisoes executivas" />
+          </div>
+          <div class="visual-offer-content">
+            <p class="section-kicker">IA aplicada ao negocio</p>
+            <h2>Mais do que paineis bonitos: dados conectados, automacoes rodando e insights acionaveis.</h2>
+            <p>
+              Combino Power BI, Python, SQL, APIs e IA para transformar rotinas manuais em processos analiticos mais confiaveis, rapidos e prontos para decisao.
+            </p>
+            <div class="visual-feature-list">
+              <article>
+                <strong>Automacoes inteligentes</strong>
+                <span>Fluxos para reduzir consolidacao manual, retrabalho e dependencia de planilhas paralelas.</span>
+              </article>
+              <article>
+                <strong>Dashboards executivos</strong>
+                <span>Indicadores organizados para diretoria, operacao, financeiro, comercial e marketing.</span>
+              </article>
+              <article>
+                <strong>IA e previsoes</strong>
+                <span>Modelos e analises para antecipar tendencias, priorizar decisoes e medir impacto.</span>
+              </article>
+            </div>
+            <div class="visual-offer-actions">
+              <a class="button primary" href="#contato">Conversar sobre meu projeto</a>
+              <a class="button secondary" href="#cases">Ver exemplos</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-contrast" id="servicos">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="section-kicker">Servicos</p>
+            <h2>Como eu entro no problema e o que sua empresa recebe no final.</h2>
+            <p>
+              Cada frente abaixo parte de um objetivo de negocio e vira entrega utilizavel, com menos dependencia de processo manual e mais clareza para decidir.
+            </p>
+          </div>
+
+          <div class="services-grid">
+            <article class="service-card">
+              <div class="card-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M4 19V5h16v14H4Zm3-3h2V9H7v7Zm4 0h2V7h-2v9Zm4 0h2v-5h-2v5Z" /></svg>
+              </div>
+              <h3>Dashboards e indicadores em Power BI</h3>
+              <p>Paineis executivos, financeiros e operacionais com modelagem, DAX, hierarquia de leitura e foco em tomada de decisao.</p>
+              <ul class="card-list">
+                <li>Diagnostico dos KPIs e das fontes</li>
+                <li>Modelagem e visual orientados a leitura gerencial</li>
+                <li>Dashboard publicado com regra de uso</li>
+              </ul>
+              <span class="deliverable">Entregavel: dashboard estruturado, documentado e pronto para acompanhamento recorrente</span>
+              <div class="service-meta">
+                <span>Power BI</span>
+                <span>DAX</span>
+                <span>KPIs</span>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <div class="card-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M5 7h4v4H5V7Zm10-2 4 4-4 4V9h-4V7h4V5ZM5 13h4v4H5v-4Zm10 0h4v4h-4v-4Z" /></svg>
+              </div>
+              <h3>ETL, integracao de bases e automacao de carga</h3>
+              <p>Consolidacao de dados com SQL, Python, APIs e cloud para reduzir planilhas paralelas e melhorar confiabilidade operacional.</p>
+              <ul class="card-list">
+                <li>Unificacao de fontes e regras de negocio</li>
+                <li>Rotinas de carga e validacao automatizadas</li>
+                <li>Base preparada para analytics e BI</li>
+              </ul>
+              <span class="deliverable">Entregavel: pipeline funcional e rotina recorrente com menos intervencao manual</span>
+              <div class="service-meta">
+                <span>SQL</span>
+                <span>Python</span>
+                <span>APIs</span>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <div class="card-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M12 3 4 7v6c0 4.1 2.7 7.7 8 9 5.3-1.3 8-4.9 8-9V7l-8-4Zm1 14h-2v-2h2v2Zm0-4h-2V7h2v6Z" /></svg>
+              </div>
+              <h3>Automacao de processos e relatorios</h3>
+              <p>Eliminacao de tarefas repetitivas com scripts, consultas e fluxos que aceleram operacao, fechamento e acompanhamento de resultados.</p>
+              <ul class="card-list">
+                <li>Mapeamento do gargalo operacional</li>
+                <li>Execucao automatizada com menos dependencia manual</li>
+                <li>Padronizacao de relatorios e entregas</li>
+              </ul>
+              <span class="deliverable">Entregavel: processo mais estavel, rapido e auditavel</span>
+              <div class="service-meta">
+                <span>Automacao</span>
+                <span>Scripts</span>
+                <span>Rotinas</span>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <div class="card-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M12 2a5 5 0 0 1 5 5v1h1a4 4 0 0 1 0 8h-1v1a5 5 0 0 1-10 0v-1H6a4 4 0 0 1 0-8h1V7a5 5 0 0 1 5-5Zm-3 7h6V7a3 3 0 0 0-6 0v2Zm0 6v2a3 3 0 0 0 6 0v-2H9Z" /></svg>
+              </div>
+              <h3>Analise avancada, previsao e IA aplicada</h3>
+              <p>Modelos analiticos para previsao, segmentacao e leitura de comportamento com criterio de negocio, validacao e interpretacao pratica.</p>
+              <ul class="card-list">
+                <li>Modelagem estatistica e experimentacao</li>
+                <li>Leitura de impacto e limite do modelo</li>
+                <li>Aplicacao em vendas, financeiro e eficiencia</li>
+              </ul>
+              <span class="deliverable">Entregavel: modelo validado com leitura acionavel para negocio</span>
+              <div class="service-meta">
+                <span>ML</span>
+                <span>Forecast</span>
+                <span>Analytics</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="perfil">
+        <div class="section-inner">
+          <div class="section-heading row-heading">
+            <div>
+              <p class="section-kicker">Perfil de cliente</p>
+              <h2>Onde esse tipo de trabalho normalmente gera mais retorno.</h2>
+            </div>
+            <p class="heading-side-copy">
+              O melhor encaixe costuma acontecer quando o negocio ja sente o custo de consolidar dados manualmente ou esta sem visibilidade confiavel para decidir.
+            </p>
+          </div>
+
+          <div class="fit-grid">
+            <article class="fit-card">
+              <strong>Operacoes com muita planilha e retrabalho</strong>
+              <p>Empresas que acumulam fechamento manual, controles paralelos e dependencia de poucas pessoas para consolidar informacoes.</p>
+            </article>
+            <article class="fit-card">
+              <strong>Gestao que precisa de indicador confiavel</strong>
+              <p>Times de lideranca que precisam olhar receita, margem, produtividade, carteira ou custo sem reconciliar dados a cada reuniao.</p>
+            </article>
+            <article class="fit-card">
+              <strong>Area analitica que precisa ganhar escala</strong>
+              <p>Equipes que ja analisam dados, mas ainda carecem de modelagem, governanca, automacao e camada executiva de apresentacao.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section projects-section" id="cases">
+        <div class="section-inner">
+          <div class="section-heading row-heading">
+            <div>
+              <p class="section-kicker">Cases</p>
+              <h2>Projetos estruturados para mostrar problema, solucao e impacto.</h2>
+            </div>
+            <div class="filter-group" aria-label="Filtrar projetos">
+              <button class="filter active" type="button" data-filter="all">Todos</button>
+              <button class="filter" type="button" data-filter="bi">BI</button>
+              <button class="filter" type="button" data-filter="data">Dados</button>
+              <button class="filter" type="button" data-filter="ml">ML</button>
+            </div>
+          </div>
+
+          <div class="project-grid" data-project-grid>
+            <article class="project-card" data-category="bi">
+              <div class="project-visual image-visual">
+                <img src="assets/images/dashboard-showcase.png" alt="Dashboard analitico para analise de mercado" />
+              </div>
+              <div class="project-content">
+                <p class="project-type">Power BI + GCP + MySQL</p>
+                <p class="project-period">Fev 2026 - Mar 2026</p>
+                <h3>Painel de analise de mercado para o setor de combustiveis</h3>
+                <p>Estruturacao de leitura comercial e operacional para acompanhar receita, margem, volume e desempenho por unidade e regiao.</p>
+                <div class="project-block">
+                  <strong>Problema</strong>
+                  <p>Falta de visibilidade consolidada para identificar variacao de rentabilidade e oportunidade de crescimento entre unidades.</p>
                 </div>
+                <div class="project-block">
+                  <strong>Solucao</strong>
+                  <p>Integracao de dados, modelagem no Power BI e leitura comparativa por periodo, produto, unidade e regiao.</p>
+                </div>
+                <div class="project-metrics">
+                  <span><strong>Receita</strong> por periodo e regiao</span>
+                  <span><strong>Margem</strong> por produto e unidade</span>
+                </div>
+                <div class="project-actions">
+                  <a class="button secondary" href="https://app.powerbi.com/view?r=eyJrIjoiZGI0ZWU2NjYtMDRmYi00ZDJiLWJhODAtYWVmZjQ3MGViYjg2IiwidCI6IjgwZjdlZDgwLTYyMjctNGY2MS1hMmRmLWViMzUzMDYzM2VlNCJ9" target="_blank" rel="noopener noreferrer">Abrir dashboard</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card" data-category="bi">
+              <div class="project-visual sales">
+                <span></span><span></span><span></span><span></span>
+              </div>
+              <div class="project-content">
+                <p class="project-type">Power BI + Python + SQL</p>
+                <p class="project-period">Dez 2025 - Jan 2026</p>
+                <h3>Painel de analise de vendas com leitura de sazonalidade</h3>
+                <p>Projeto para destacar padroes de consumo, ticket medio, contribuicao de produtos e variacao de performance comercial.</p>
+                <div class="project-block">
+                  <strong>Problema</strong>
+                  <p>Baixa clareza sobre picos sazonais, concentracao de receita e leitura rapida dos produtos que mais movem o resultado.</p>
+                </div>
+                <div class="project-block">
+                  <strong>Solucao</strong>
+                  <p>Analise consolidada com Python, SQL e Power BI para monitorar receita, margem, crescimento e potencial regional.</p>
+                </div>
+                <div class="project-metrics">
+                  <span><strong>Ticket medio</strong> e sazonalidade</span>
+                  <span><strong>15%</strong> de crescimento em picos sazonais</span>
+                </div>
+                <div class="project-actions">
+                  <a class="button secondary" href="https://app.powerbi.com/view?r=eyJrIjoiYzhiNGRkZTEtOTdmNi00YWFmLWE3NGQtZjg1MmExMTg4YWIzIiwidCI6IjgwZjdlZDgwLTYyMjctNGY2MS1hMmRmLWViMzUzMDYzM2VlNCJ9" target="_blank" rel="noopener noreferrer">Abrir dashboard</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card" data-category="data">
+              <div class="project-visual pipeline">
+                <span></span><span></span><span></span><span></span>
+              </div>
+              <div class="project-content">
+                <p class="project-type">Power BI + SQL Server</p>
+                <p class="project-period">Abr 2023 - Abr 2024</p>
+                <h3>Painel de gerenciamento de projetos com controle financeiro</h3>
+                <p>Solucao analitica para acompanhar orcamento, progresso, aproveitamento e performance dos projetos em tempo real.</p>
+                <div class="project-block">
+                  <strong>Problema</strong>
+                  <p>Leitura fragmentada de carteira, alocacao de recursos e desempenho dos projetos, dificultando controle e priorizacao gerencial.</p>
+                </div>
+                <div class="project-block">
+                  <strong>Solucao</strong>
+                  <p>Modelagem integrada com bases financeiras e operacionais, visual de acompanhamento e indicadores por gestor e departamento.</p>
+                </div>
+                <div class="project-metrics">
+                  <span><strong>Projetos</strong> por gestor e departamento</span>
+                  <span><strong>Receita</strong> e aproveitamento</span>
+                </div>
+                <div class="project-actions">
+                  <a class="button secondary" href="https://app.powerbi.com/view?r=eyJrIjoiNDc5YzZmZmMtNWUzNi00Y2U5LWJlMzgtZGRjOGJiMDU4ZDEzIiwidCI6IjgwZjdlZDgwLTYyMjctNGY2MS1hMmRmLWViMzUzMDYzM2VlNCJ9" target="_blank" rel="noopener noreferrer">Abrir dashboard</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section method-section" id="processo">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="section-kicker">Processo</p>
+            <h2>Forma de trabalho direta, com escopo, implementacao e entrega utilizavel.</h2>
+            <p>O objetivo nao e so construir a solucao. E fazer a operacao conseguir usar, confiar e evoluir depois da entrega.</p>
+          </div>
+
+          <div class="method-grid">
+            <article>
+              <span>01</span>
+              <h3>Diagnostico e escopo</h3>
+              <p>Mapeamento do problema, das fontes, dos indicadores criticos e do nivel de maturidade da operacao.</p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>Arquitetura da solucao</h3>
+              <p>Definicao de modelagem, integracoes, logica de negocio, periodicidade e desenho da camada analitica.</p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>Construcao e validacao</h3>
+              <p>Implementacao de pipelines, dashboards, automacoes e checagens para garantir consistencia antes do uso recorrente.</p>
+            </article>
+            <article>
+              <span>04</span>
+              <h3>Handoff e evolucao</h3>
+              <p>Publicacao, documentacao, treinamento e recomendacoes para a solucao continuar gerando valor na rotina.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section dark-section">
+        <div class="section-inner">
+          <div class="section-heading row-heading">
+            <div>
+              <p class="section-kicker">Prova e stack</p>
+              <h2>Base tecnica forte, mas organizada para resultado de negocio.</h2>
             </div>
-        </section>
+            <p class="heading-side-copy">
+              Experiencia em empresas de tecnologia, viagens, saude, meio ambiente e midia, conectando dados a decisao executiva e rotina operacional.
+            </p>
+          </div>
 
-        <section class="acordeon">
-            <button class="trigger" type="button">
-                <h2>Idiomas</h2>
-            </button>
-
-            <div class="content">
-                <ul class="languages" id="profile.languages">
-                    <li>Carregando...</li>
-                </ul>
+          <div class="credentials-layout">
+            <div class="quote-card">
+              <p>"Meu foco e tirar o dado da planilha isolada e colocar a informacao na rotina de decisao, com menos dependencia manual e mais clareza para o time."</p>
             </div>
-        </section>
-
-        <section class="acordeon">
-            <button class="trigger" type="button">
-                <h2>Portfólio</h2>
-            </button>
-
-            <div class="content">
-                <ul class="portfolio" id="profile.portfolio">
-                </ul>
+            <div class="skill-cloud" aria-label="Lista de tecnologias">
+              <span>Power BI</span>
+              <span>Python</span>
+              <span>SQL</span>
+              <span>DAX</span>
+              <span>Google Cloud</span>
+              <span>AWS</span>
+              <span>Azure</span>
+              <span>Looker Studio</span>
+              <span>ETL</span>
+              <span>APIs</span>
+              <span>Data Modeling</span>
+              <span>Machine Learning</span>
+              <span>Forecast</span>
+              <span>JavaScript</span>
+              <span>Data Storytelling</span>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <section class="acordeon">
-            <button class="trigger" type="button">
-                <h2>Experiência Profissional</h2>
-            </button>
+      <section class="section" id="experiencia">
+        <div class="section-inner experience-layout">
+          <div class="section-heading sticky-heading">
+            <p class="section-kicker">Experiencia</p>
+            <h2>Trajetoria em BI, dados, automacao e analise aplicada.</h2>
+            <p>Historico em contextos diferentes, com foco recorrente em consolidacao de dados, leitura gerencial, previsao e ganho operacional.</p>
+          </div>
 
-            <div class="content">
-                <ul class="experience" id="profile.professionalExperience">
-                </ul>
+          <div class="timeline">
+            <article>
+              <time>Fev 2025 - Atual</time>
+              <h3>Full Business Intelligence Analyst | Neooh</h3>
+              <p>BI financeiro, dashboards dinamicos, previsoes, modelagem estatistica, DAX e suporte a decisoes executivas.</p>
+            </article>
+            <article>
+              <time>Set 2023 - Fev 2025</time>
+              <h3>Data Analyst Pl | Alvorada Ambiental</h3>
+              <p>Analises preditivas, dashboards conectados a APIs, solucoes em Google Cloud e AWS, integracao de bases e otimizacao de consultas.</p>
+            </article>
+            <article>
+              <time>Jan 2023 - Set 2023</time>
+              <h3>Analista de Software | Rapidonet Sistemas</h3>
+              <p>Automacao de dados com SQL Server, solucoes analiticas integradas a sistemas operacionais e relatorios customizados.</p>
+            </article>
+            <article>
+              <time>2019 - 2022</time>
+              <h3>123milhas e Premium Saude</h3>
+              <p>Pipelines, relatorios avancados, scripts em Node.js, automacoes com JavaScript e suporte a indicadores operacionais.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section education-band">
+        <div class="section-inner education-grid">
+          <article>
+            <p class="section-kicker">Formacao</p>
+            <h3>Bacharelado em Sistemas da Informacao</h3>
+            <p>Estacio de Sa | 2020 - 2023</p>
+          </article>
+          <article>
+            <p class="section-kicker">Pos-graduacao</p>
+            <h3>MBA em Dados</h3>
+            <p>DIO | 2023 - 2026</p>
+          </article>
+          <article>
+            <p class="section-kicker">Idiomas</p>
+            <h3>Ingles e Espanhol</h3>
+            <p>Nivel avancado</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contato">
+        <div class="section-inner contact-grid">
+          <div>
+            <p class="section-kicker">Contato</p>
+            <h2>Se fizer sentido, eu transformo seu problema de dados em um plano de entrega objetivo.</h2>
+            <p>
+              Podemos conversar sobre dashboard executivo, integracao de bases, automacao de rotina, leitura financeira, previsao ou estruturacao de indicadores.
+            </p>
+            <div class="contact-points">
+              <article>
+                <strong>O que alinhar primeiro</strong>
+                <span>Objetivo, fonte de dados, frequencia de uso e impacto esperado.</span>
+              </article>
+              <article>
+                <strong>Formato</strong>
+                <span>Diagnostico, projeto fechado ou apoio recorrente em analytics.</span>
+              </article>
             </div>
-        </section>
+            <div class="contact-links">
+              <a href="mailto:carlos1818teixeira@gmail.com">carlos1818teixeira@gmail.com</a>
+              <a href="tel:+5531999862641">+55 (31) 99986-2641</a>
+              <a href="https://wa.me/5531999862641">WhatsApp profissional</a>
+              <span>Pampulha, MG</span>
+            </div>
+            <div class="resume-actions">
+              <a class="button secondary" href="assets/downloads/curriculo-carlos-augusto-rodrigues-teixeira.pdf" download>Baixar curriculo</a>
+              <a class="button secondary" href="assets/downloads/resume-carlos-augusto-rodrigues-teixeira.pdf" download>English resume</a>
+            </div>
+          </div>
 
-        <footer>
-            <a href="https://www.dio.me/" target="_blank">
-                <img src="assets/img/dio.svg" alt="DIO">
-            </a>
-        </footer>
+          <form class="contact-form" action="https://formsubmit.co/carlos1818teixeira@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="Novo contato pelo site - Carlos Augusto" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_next" value="obrigado.html" />
+            <input type="text" name="_honey" class="form-honey" tabindex="-1" autocomplete="off" />
+            <label>
+              Nome
+              <input type="text" name="Nome" autocomplete="name" required />
+            </label>
+            <label>
+              E-mail
+              <input type="email" name="email" autocomplete="email" required />
+            </label>
+            <label>
+              Tipo de demanda
+              <select name="Servico">
+                <option>Dashboard e indicadores em Power BI</option>
+                <option>Integracao de bases e ETL</option>
+                <option>Automacao de processos e relatorios</option>
+                <option>Analise avancada, previsao ou IA</option>
+              </select>
+            </label>
+            <label>
+              Contexto
+              <textarea name="Mensagem" rows="5" required></textarea>
+            </label>
+            <button class="button primary" type="submit">Enviar mensagem</button>
+          </form>
+        </div>
+      </section>
     </main>
 
-    <script src="assets/js/acordeon.js"></script>
-    <script src="assets/js/api.js"></script>
-    <script src="assets/js/main.js"></script>
-</body>
+    <footer class="footer">
+      <p>© 2026 Carlos Augusto Rodrigues Teixeira. Consultoria em BI, dados e automacao.</p>
+      <a href="#inicio">Voltar ao topo</a>
+    </footer>
 
+    <script src="js/script.js"></script>
+  </body>
 </html>
