@@ -1,0 +1,27 @@
+INSTRUÇÕES PARA ADICIONAR O VÍDEO
+
+Para o vídeo funcionar no site, você precisa:
+
+1. Adicionar seu vídeo/GIF nesta pasta (assets/videos/)
+
+2. Renomear o arquivo para: hero-analytics.mp4
+   OU converter para os formatos:
+   - hero-analytics.mp4 (formato MP4)
+   - hero-analytics.webm (formato WebM - opcional, mas recomendado)
+
+3. DICA: Se você tem um GIF, pode converter para MP4 usando:
+   - Site: https://cloudconvert.com/gif-to-mp4
+   - Ou qualquer conversor de vídeo online
+
+4. O vídeo será reproduzido automaticamente em loop (repetição contínua)
+
+5. IMPORTANTE: 
+   - Mantenha o vídeo com tamanho otimizado (máximo 10-15MB)
+   - Resolução recomendada: 1920x1080 ou 1280x720
+   - Se o vídeo não aparecer, verifique se o nome está correto
+
+6. Após adicionar o vídeo, atualize a página no navegador (F5)
+
+ALTERNATIVA: Se preferir usar apenas a imagem atual, você pode:
+- Deletar as linhas do vídeo no index.html
+- Ou simplesmente não adicionar o vídeo (a imagem atual continuará funcionando)
