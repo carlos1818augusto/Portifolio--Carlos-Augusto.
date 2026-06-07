@@ -526,27 +526,28 @@ h3 {
 .visual-offer {
   background:
     linear-gradient(180deg, #f8fbfb 0%, #eef4f4 100%);
-  padding-top: 104px;
+  padding-bottom: 78px;
+  padding-top: 78px;
 }
 
 .visual-offer-grid {
   align-items: center;
   display: grid;
-  gap: 46px;
-  grid-template-columns: minmax(0, 1.05fr) minmax(360px, 0.95fr);
+  gap: 38px;
+  grid-template-columns: minmax(0, 0.95fr) minmax(360px, 1.05fr);
 }
 
 .visual-offer-media {
-  background: linear-gradient(145deg, rgba(15, 143, 131, 0.16), rgba(43, 108, 163, 0.08));
-  border: 1px solid rgba(216, 225, 227, 0.9);
+  background: #ffffff;
+  border: 1px solid var(--line);
   border-radius: var(--radius);
-  box-shadow: 0 28px 72px rgba(15, 23, 24, 0.14);
+  box-shadow: 0 20px 54px rgba(15, 23, 24, 0.12);
   overflow: hidden;
-  padding: 12px;
+  padding: 10px;
 }
 
 .visual-offer-media img {
-  aspect-ratio: 16 / 11;
+  aspect-ratio: 16 / 10;
   border-radius: 6px;
   height: 100%;
   object-fit: cover;
@@ -554,7 +555,12 @@ h3 {
 }
 
 .visual-offer-content {
-  max-width: 570px;
+  max-width: 620px;
+}
+
+.visual-offer-content h2 {
+  font-size: clamp(1.9rem, 3vw, 3rem);
+  line-height: 1.08;
 }
 
 .visual-offer-content p:not(.section-kicker),
@@ -564,15 +570,15 @@ h3 {
 
 .visual-feature-list {
   display: grid;
-  gap: 12px;
-  margin-top: 24px;
+  gap: 10px;
+  margin-top: 22px;
 }
 
 .visual-feature-list article {
   background: rgba(255, 255, 255, 0.82);
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  padding: 16px 18px;
+  padding: 14px 16px;
 }
 
 .visual-feature-list strong {
